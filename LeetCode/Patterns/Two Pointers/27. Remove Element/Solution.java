@@ -12,3 +12,5 @@ class Solution {
         return k;
     }
 }
+//HINT
+//i finds the elements we want. k stores them at the front. And k finally tells us how many elements remain.
