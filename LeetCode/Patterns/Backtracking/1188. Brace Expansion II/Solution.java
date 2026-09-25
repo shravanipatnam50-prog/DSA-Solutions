@@ -1,4 +1,8 @@
 class Solution {
+    public List<String> braceExpansionII(String expression) {
+        
+    }
+}class Solution {
 
     int index = 0;
 
