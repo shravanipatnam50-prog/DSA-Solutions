@@ -14,23 +14,23 @@
         return new int[]{};
     }
 } */
-
+//but not working in two
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-
-        HashMap<Integer, Integer> map = new HashMap<>();
-
-        for (int i = 0; i < nums.length; i++) {
-
-            int need = target - nums[i];
-
-            if (map.containsKey(need)) {
-                return new int[]{map.get(need), i};
+        Arrays.sort(nums);
+        int i = 0, j = nums.length - 1;
+        while (i < j) {
+            int sum = nums[i] + nums[j];
+            if (sum == target) {
+                return new int[]{nums[i], nums[j]};
             }
-
-            map.put(nums[i], i);
+            else if (sum < target) {
+                i++;
+            }
+            else {
+                j--;
+            }
         }
-
         return new int[]{};
     }
 }
