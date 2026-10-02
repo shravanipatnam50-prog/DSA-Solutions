@@ -9,7 +9,7 @@ Array, String, Trie
 
 ### 🚀 Performance
 - **Runtime:** 4 ms
-- **Memory:** 43.5 MB
+- **Memory:** 43.7 MB
 
 ---
 
