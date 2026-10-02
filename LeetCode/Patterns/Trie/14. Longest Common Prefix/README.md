@@ -8,8 +8,8 @@
 Array, String, Trie
 
 ### 🚀 Performance
-- **Runtime:** 0 ms
-- **Memory:** 43.3 MB
+- **Runtime:** 4 ms
+- **Memory:** 43.5 MB
 
 ---
 
