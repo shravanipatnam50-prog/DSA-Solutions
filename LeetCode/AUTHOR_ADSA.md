@@ -95,7 +95,7 @@ Track your progress on the Curated 100hrs Advanced DSA interview preparation lis
 - [ ] Next Greater Element I
 - [ ] Next Greater Element II
 - [x] [Daily Temperatures](./Java/Medium/739. Daily Temperatures/)
-- [x] [Final Prices With a Special Discount in a Shop](./Java/Easy/1475. Final Prices With a Special Discount in a Shop/)
+- [x] [Final Prices With a Special Discount in a Shop](./Java/Easy/1570. Final Prices With a Special Discount in a Shop/)
 - [ ] 132 Pattern
 - [ ] Largest Rectangle in Histogram
 - [ ] Trapping Rain Water
