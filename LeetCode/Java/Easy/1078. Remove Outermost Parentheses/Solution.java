@@ -1,3 +1,4 @@
+/*
 class Solution {
     public String removeOuterParentheses(String s) {
         int n=s.length();
@@ -21,6 +22,39 @@ class Solution {
                 {
                     ans=ans+ch;
                 }
+            }
+        }
+        return ans;
+    }
+}
+*/
+
+
+class Solution {
+    public String removeOuterParentheses(String s) {
+        String ans = "";
+        int open = 0;
+        int close = 0;
+        int start = 0;
+        for (int i = 0; i < s.length(); i++) 
+        {
+            if (s.charAt(i) == '(') 
+            {
+                open++;
+            } 
+            else 
+            {
+                close++;
+            }
+            if (open == close) 
+            {
+                for (int j = start + 1; j < i; j++) 
+                {
+                    ans = ans + s.charAt(j);
+                }
+                start = i + 1;
+                open = 0;
+                close = 0;
             }
         }
         return ans;
