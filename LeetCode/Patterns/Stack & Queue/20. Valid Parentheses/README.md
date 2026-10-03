@@ -8,8 +8,8 @@
 String, Stack, Bracket Sequences
 
 ### 🚀 Performance
-- **Runtime:** 161 ms
-- **Memory:** 46.4 MB
+- **Runtime:** 3 ms
+- **Memory:** 43.3 MB
 
 ---
 
