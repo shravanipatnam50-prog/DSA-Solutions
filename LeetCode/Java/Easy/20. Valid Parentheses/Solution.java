@@ -1,4 +1,4 @@
-/*
+
 class Solution {
     public boolean isValid(String s) {
         while (s.contains("()") || s.contains("[]") || s.contains("{}")) {
@@ -9,8 +9,9 @@ class Solution {
         return s.length() == 0;
     }
 }
-*/
 
+
+/*
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> st = new Stack<>();
@@ -37,4 +38,4 @@ class Solution {
         }
         return st.isEmpty();
     }
-}
+}*/
