@@ -1,4 +1,5 @@
-
+//brute force
+/*
 class Solution {
     public boolean isValid(String s) {
         while (s.contains("()") || s.contains("[]") || s.contains("{}")) {
@@ -15,34 +16,47 @@ class Solution {
             return false;
         }
     }
-}
+}*/
 
 
-/*
+//optimal using Stack
+
+
 class Solution {
-    public boolean isValid(String s) {
-        Stack<Character> st = new Stack<>();
-        for(int i = 0; i < s.length(); i++) {
-            char ch = s.charAt(i);
-            if(ch == '{' || ch == '[' || ch == '(') {
+    public boolean isValid(String s) 
+    {
+        Stack<Character> st=new Stack<>();
+        for(int i=0;i<s.length();i++)
+        {
+            char ch=s.charAt(i);
+            if(ch == '(' || ch == '[' || ch == '{')
+            {
                 st.push(ch);
             }
-            else if(st.isEmpty()) {
-                return false;
-            }
-            else {
-                char top = st.pop();
-                if(ch == ')' && top != '(') {
+            else
+            {
+                if(st.isEmpty())
+                {
                     return false;
                 }
-                if(ch == ']' && top != '[') {
-                    return false;
+                char top=st.peek();
+                if((ch == ')' && top =='(') || (ch == ']' && top =='[') || (ch == '}' && top =='{'))
+                {
+                    st.pop();
                 }
-                if(ch == '}' && top != '{') {
+                else
+                {
                     return false;
                 }
             }
         }
-        return st.isEmpty();
+        if(st.isEmpty())
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
-}*/
+}
