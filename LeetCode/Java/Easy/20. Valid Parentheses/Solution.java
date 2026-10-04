@@ -6,7 +6,14 @@ class Solution {
             s = s.replace("[]", "");
             s = s.replace("{}", "");
         }
-        return s.length() == 0;
+        if(s.length() == 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }
 
