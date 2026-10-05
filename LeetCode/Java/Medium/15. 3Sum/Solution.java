@@ -26,7 +26,8 @@ class Solution {
 }*/
 
 class Solution {
-    public List<List<Integer>> threeSum(int[] arr) {
+    public List<List<Integer>> threeSum(int[] arr) 
+    {
         Arrays.sort(arr);
         List<List<Integer>> ans = new ArrayList<>();
         for (int i = 0; i < arr.length - 2; i++) {
