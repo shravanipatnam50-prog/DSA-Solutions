@@ -26,58 +26,51 @@ class Solution {
 }*/
 
 class Solution {
-    public List<List<Integer>> threeSum(int[] arr) {
-
-        Arrays.sort(arr);
-
-        List<List<Integer>> ans = new ArrayList<>();
-
-        for (int i = 0; i < arr.length - 2; i++) {
-
-            // Skip duplicate i
-            if (i > 0 && arr[i] == arr[i - 1]) {
+    public List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums);
+        List<List<Integer>> ans=new ArrayList<>();
+        for(int i=0;i<nums.length;i++)
+        {
+            //skip duplicates
+            if(i>0 && nums[i]==nums[i-1])
+            {
                 continue;
             }
-
-            int j = i + 1;
-            int k = arr.length - 1;
-
-            while (j < k) {
-
-                int sum = arr[i] + arr[j] + arr[k];
-
-                if (sum == 0) {
-
-                    List<Integer> temp = new ArrayList<>();
-
-                    temp.add(arr[i]);
-                    temp.add(arr[j]);
-                    temp.add(arr[k]);
+            int j=i+1;
+            int k=nums.length-1;
+            while(j<k)
+            {
+                int sum=nums[i]+nums[j]+nums[k];
+                if(sum == 0)
+                {
+                    List<Integer> temp= new ArrayList<>();
+                    temp.add(nums[i]);
+                    temp.add(nums[j]);
+                    temp.add(nums[k]);
 
                     ans.add(temp);
-
                     j++;
                     k--;
 
-                    // Skip duplicate j
-                    while (j < k && arr[j] == arr[j - 1]) {
+                    while(j<k && nums[j] == nums[j - 1])
+                    {
                         j++;
                     }
-
-                    // Skip duplicate k
-                    while (j < k && arr[k] == arr[k + 1]) {
+                    while(j<k && nums[k] == nums[k + 1])
+                    {
                         k--;
                     }
                 }
-                else if (sum < 0) {
-                    j++;
-                }
-                else {
+                else if(sum>0)
+                {
                     k--;
+                }
+                else
+                {
+                    j++;
                 }
             }
         }
-
         return ans;
     }
 }
