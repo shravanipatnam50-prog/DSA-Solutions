@@ -1,3 +1,5 @@
+//counter method
+
 /*
 class Solution {
     public int minAddToMakeValid(String s) {
@@ -22,7 +24,7 @@ class Solution {
 }
 */
 
-
+//two pointer approach
 class Solution {
     public int minAddToMakeValid(String s) {
         int open = 0;
