@@ -1,4 +1,4 @@
-//counter =0;
+//counter = 0;
 /*
 class Solution {
     public String removeOuterParentheses(String s) {
@@ -31,6 +31,7 @@ class Solution {
 */
 
 //two pointer
+
 /*
 class Solution {
     public String removeOuterParentheses(String s) {
@@ -63,9 +64,12 @@ class Solution {
     }
 }
 */
-class Solution {
-    public String removeOuterParentheses(String s) {
-        Stack<Character> st=new Stack<>();
+
+class Solution 
+{
+    public String removeOuterParentheses(String s) 
+    {
+        Stack<Character> st = new Stack<>();
         String ans="";
         for(int i=0;i<s.length();i++)
         {
@@ -74,7 +78,7 @@ class Solution {
             {
                 if(!st.isEmpty())
                 {
-                    ans+=ch;
+                    ans=ans+ch;
                 }
                 st.push(ch);
             }
@@ -83,7 +87,7 @@ class Solution {
                 st.pop();
                 if(!st.isEmpty())
                 {
-                    ans+=ch;
+                    ans=ans+ch;
                 }
             }
         }
