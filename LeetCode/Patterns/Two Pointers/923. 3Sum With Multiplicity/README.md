@@ -1,6 +1,6 @@
 # 📝 923. 3Sum With Multiplicity (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/3sum-with-multiplicity)
+🔗 [Problem Link](https://leetcode.com/problems/3sum-with-multiplicity/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
