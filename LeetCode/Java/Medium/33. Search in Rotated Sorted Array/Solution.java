@@ -1,42 +1,41 @@
-class Solution {
+/*class Solution {
     public int search(int[] nums, int k) {
 
-        int left = 0;
-        int right = nums.length - 1;
-
-        while (left <= right) {
-
-            int mid = left + (right - left) / 2;
-
+        int left=0;
+        int right=nums.length-1;
+        while (left<=right) 
+        {
+            int mid=left+(right-left)/2;
             // Target found
-            if (nums[mid] == k) {
-                return mid;
-            }
-
+            if(nums[mid]==k) return mid;
             // RIGHT HALF IS SORTED
-            if (nums[mid] <= nums[right]) {
-
-                if (nums[mid] < k && k <= nums[right]) 
+            if(nums[mid]<=nums[right]) 
+            {
+                if(nums[mid]<k && k<=nums[right]) 
                 {
                     // Target is in right half
-                    left = mid + 1;
+                    left=mid+1;
                 }
-                else {
+                else 
+                {
                     // Target is in left half
-                    right = mid - 1;
+                    right=mid-1;
                 }
             }
 
             // LEFT HALF IS SORTED
-            else {
+            else 
+            {
 
-                if (nums[left] <= k && k < nums[mid]) {
+                if(nums[left]<=k && k<nums[mid]) 
+                {
                     // Target is in left half
-                    right = mid - 1;
+                    right=mid-1;
                 }
-                else {
+                else 
+                {
                     // Target is in right half
-                    left = mid + 1;
+                    left=mid+1;
                 }
             }
         }
@@ -44,8 +43,9 @@ class Solution {
         return -1;
     }
 }
+*/
 
-/*
+
 class Solution {
     public int search(int[] nums, int target) {
 
@@ -59,4 +59,3 @@ class Solution {
         return -1;
     }
 }
-*/
