@@ -191,7 +191,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [x] [Valid Palindrome](./Java/Easy/125. Valid Palindrome/)
 - [ ] Rotate String
 - [ ] First Palindromic String
-- [x] [Reverse Only Letters](./Java/Easy/917. Reverse Only Letters/)
+- [x] [Reverse Only Letters](./Java/Easy/953. Reverse Only Letters/)
 - [ ] Reverse Vowels of a String
 - [ ] Longest Substring Without Repeating Characters
 - [ ] Jewels and Stones
