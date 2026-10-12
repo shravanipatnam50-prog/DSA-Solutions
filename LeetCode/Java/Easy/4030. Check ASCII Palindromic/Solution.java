@@ -1,4 +1,3 @@
-
 class Solution {
     public boolean isPalindromic(String s) {
         for (int i = 0; i < s.length(); i++) {
