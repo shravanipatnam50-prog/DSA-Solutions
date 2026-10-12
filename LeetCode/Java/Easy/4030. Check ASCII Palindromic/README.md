@@ -1,6 +1,6 @@
 # 📝 4030. Check ASCII Palindromic (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/check-ascii-palindromic/)
+🔗 [Problem Link](https://leetcode.com/problems/check-ascii-palindromic)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
