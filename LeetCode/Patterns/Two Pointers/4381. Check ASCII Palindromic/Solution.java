@@ -1,9 +1,10 @@
 
 class Solution {
     public boolean isPalindromic(String s) {
+        String binary = "";
+
         for (int i = 0; i < s.length(); i++) {
-            char ch = s.charAt(i);
-            int ascii = ch;
+            int ascii = s.charAt(i);
 
             String b = Integer.toBinaryString(ascii);
 
@@ -11,17 +12,15 @@ class Solution {
                 b = "0" + b;
             }
 
-            String rev = "";
-
-            for (int j = b.length() - 1; j >= 0; j--) {
-                rev = rev + b.charAt(j);
-            }
-
-            if (!b.equals(rev)) {
-                return false;
-            }
+            binary = binary + b;
         }
 
-        return true;
+        String rev = "";
+
+        for (int i = binary.length() - 1; i >= 0; i--) {
+            rev = rev + binary.charAt(i);
+        }
+
+        return binary.equals(rev);
     }
 }

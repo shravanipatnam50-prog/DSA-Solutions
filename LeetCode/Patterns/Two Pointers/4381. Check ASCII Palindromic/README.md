@@ -8,8 +8,8 @@
 Two Pointers, String, Bit Manipulation
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 13 ms
+- **Memory:** 47.6 MB
 
 ---
 
