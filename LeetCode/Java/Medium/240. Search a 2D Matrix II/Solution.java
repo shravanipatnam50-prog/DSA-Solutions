@@ -1,7 +1,7 @@
 class Solution {
     public boolean searchMatrix(int[][] arr, int target) {
         int i=0;
-        int j=arr.length-1;
+        int j=arr[0].length-1;
         while(i<arr.length && j>=0)
         {
             if(arr[i][j] == target)
