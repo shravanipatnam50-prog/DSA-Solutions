@@ -1,6 +1,6 @@
 # 📝 594. Longest Harmonious Subsequence (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/longest-harmonious-subsequence)
+🔗 [Problem Link](https://leetcode.com/problems/longest-harmonious-subsequence/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Array, Hash Table, Sliding Window, Sorting, Counting
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 24 ms
+- **Memory:** 48.3 MB
 
 ---
 
