@@ -5,8 +5,7 @@ class Solution {
         {
             for(int j=0;j<arr[i].length;j++)
             {
-                int num=arr[i][j];
-                if(num<0)
+                if(arr[i][j]<0)
                 {
                     count++;
                 }
