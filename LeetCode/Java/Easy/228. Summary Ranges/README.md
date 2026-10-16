@@ -1,6 +1,6 @@
 # 📝 228. Summary Ranges (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/summary-ranges/?envType=problem-list-v2&envId=array)
+🔗 [Problem Link](https://leetcode.com/problems/summary-ranges/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Array
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 2 ms
+- **Memory:** 42.6 MB
 
 ---
 
