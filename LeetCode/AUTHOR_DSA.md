@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 25 / 238 (10.5%)
+- **Completed:** 26 / 238 (10.9%)
 
 ---
 
@@ -185,7 +185,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [ ] Sorting the Sentence
 - [ ] Faulty Keyboard
 - [ ] License Key Formatting
-- [ ] Keyboard Row
+- [x] [Keyboard Row](./Java/Easy/500. Keyboard Row/)
 - [ ] Delete Columns to Make Sorted
 - [ ] Reverse String II
 - [x] [Valid Palindrome](./Java/Easy/125. Valid Palindrome/)
